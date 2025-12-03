@@ -20,6 +20,7 @@ dependencies = [
     "beautifulsoup4>=4.14.2",
     "deep-translator>=1.11.4",
     "googletrans>=4.0.2",
+    "joblib>=1.5.2",
     "langdetect>=1.0.9",
     "loguru",
     "matplotlib>=3.10.7",
