@@ -17,13 +17,23 @@ classifiers = [
 ]
 dependencies = [
     "awscli",
+    "beautifulsoup4>=4.14.2",
+    "deep-translator>=1.11.4",
+    "googletrans>=4.0.2",
+    "langdetect>=1.0.9",
     "loguru",
+    "matplotlib>=3.10.7",
     "mkdocs",
+    "pandas>=2.3.3",
     "pip",
     "python-dotenv",
     "ruff",
+    "scikit-learn>=1.7.2",
+    "spacy>=3.8.11",
+    "streamlit>=1.51.0",
     "tqdm",
     "typer",
+    "urlextract>=1.9.0",
 ]
 requires-python = "~=3.12.0"
 
