@@ -25,15 +25,15 @@ Below are the key evaluation visuals generated during model training.
 ### 🔹 Confusion Matrix
 This matrix shows how well the model distinguishes between phishing and ham emails:
 
-![logistic Confusion Matrix](reports/figures/logistic_confusion_matrix.png)
+![logistic Confusion Matrix](../reports/figures/logistic_confusion_matrix.png)
 
-![SVM_Confusion Matrix](reports/figures/logistic_confusion_matrix.png)
+![SVM_Confusion Matrix](../reports/figures/logistic_confusion_matrix.png)
 
 
 ### 🔹 Logistic Regression vs SVM — Precision & Recall Comparison
 This plot compares the precision and recall of both models:
 
-![Evaluation Comparison](reports/figures/evaluation_comparison.png)
+![Evaluation Comparison](../reports/figures/evaluation_comparison.png)
 
 🙌 Contributions
 
