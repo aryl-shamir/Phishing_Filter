@@ -52,19 +52,19 @@ def main():
             
         # Progress Bar Indicator (0–1)
      
-    prediction = int(phishing_prediction[0])
+        prediction = int(phishing_prediction[0])
 
-    st.markdown("Prediction Indicator")
+        st.markdown("Prediction Indicator")
 
-    progress_value = 1.0 if prediction == 1 else 0.0
+        progress_value = 1.0 if prediction == 1 else 0.0
 
-    st.progress(progress_value)
+        st.progress(progress_value)
 
-    if prediction == 1:
-        st.error("⚠️ This email is likely a **Phishing Email**.")
-    else:
-        st.success("✔️ This email looks like **Ham (Safe)**.")
-     
+        if prediction == 1:
+            st.error("⚠️ This email is likely a **Phishing Email**.")
+        else:
+            st.success("✔️ This email looks like **Ham (Safe)**.")
+        
     
 if __name__ == "__main__":
     main()
