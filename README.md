@@ -26,7 +26,7 @@ Below are the key evaluation visuals generated during model training.
 ### 🔹 Confusion Matrix
 This matrix shows how well the model distinguishes between phishing and ham emails:
 
-![logistic Confusion Matrix]
+### 🔹 svm_Confusion Matrix
 <img width="507" height="432" alt="1c6a7ebd-06f9-44f3-be45-841b369b2014" src="https://github.com/user-attachments/assets/ff44eba3-2254-4a31-858b-083f398e78f6" />
 
 ![SVM_Confusion Matrix](../reports/figures/logistic_confusion_matrix.png)
