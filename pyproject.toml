@@ -1,0 +1,53 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "phishing_filter"
+version = "0.0.1"
+description = "Building a phishing filter"
+authors = [
+  { name = "Your name (or your organization/company/team)" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "awscli",
+    "beautifulsoup4>=4.14.2",
+    "deep-translator>=1.11.4",
+    "googletrans>=4.0.2",
+    "joblib>=1.5.2",
+    "langdetect>=1.0.9",
+    "loguru",
+    "matplotlib>=3.10.7",
+    "mkdocs",
+    "pandas>=2.3.3",
+    "pip",
+    "python-dotenv",
+    "ruff",
+    "scikit-learn>=1.7.2",
+    "spacy>=3.8.11",
+    "streamlit>=1.51.0",
+    "tqdm",
+    "typer",
+    "urlextract>=1.9.0",
+]
+requires-python = "~=3.12.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["phishing_filter"]
+include = ["pyproject.toml", "phishing_filter/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["phishing_filter"]
+force-sort-within-sections = true
+
