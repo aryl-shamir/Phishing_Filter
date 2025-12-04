@@ -2,7 +2,7 @@ import streamlit as st
 import sys 
 from pathlib import Path
 
-# sys.path.insert(0, Path(__file__).resolve().parent.parent)
+sys.path.insert(0, Path(__file__).resolve().parent.parent)
 
 from phishing_filter.email_structure import (load_email, get_email_structure,
                                              structure_counter, html_to_plain_text,
@@ -10,11 +10,6 @@ from phishing_filter.email_structure import (load_email, get_email_structure,
                                              translate_into_english
                                              )
     
-# def email_parser(email_file):
-#     with st.expander("Here is the email content"):
-#         email_msg = load_email(email_file)
-#         email_text = email_to_text(email_msg)
-#         return email_msg, st.write(email_text)
 
 def email_parser(loaded_email):
     with st.expander("Here is the email content"):
